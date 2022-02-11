@@ -5,7 +5,7 @@ export const MOBILE_PLATFORM = {
     UNKNOWN: 'UNKNOWN'
 }
 export function getMobileOperatingSystem() {
-    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    var userAgent = navigator.userAgent || navigator.vendor;
 
     // Windows Phone must come first because its UA also contains "Android"
     if (/windows phone/i.test(userAgent)) {
@@ -17,7 +17,7 @@ export function getMobileOperatingSystem() {
     }
 
     // iOS detection from: http://stackoverflow.com/a/9039885/177710
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    if (/iPad|iPhone|iPod/.test(userAgent)) {
         return MOBILE_PLATFORM.IOS;
     }
 
