@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "4QQ57LLX7M.com.ios.wetrade.app.debug",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
