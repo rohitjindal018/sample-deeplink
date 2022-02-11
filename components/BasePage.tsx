@@ -24,7 +24,7 @@ export default abstract class BasePage<
         "http://play.google.com/store/apps/details?id=com.truecaller&hl=en";
     } else if (platform === MOBILE_PLATFORM.IOS) {
       window.location.href =
-        "itms://itunes.apple.com/app/apple-store/id375380948?mt=8";
+        "itms-apps://itunes.apple.com/us/app/tracks-video-conversations/id333903271?mt=8";
     }
   }
 
