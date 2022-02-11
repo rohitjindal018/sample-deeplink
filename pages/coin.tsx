@@ -24,7 +24,7 @@ class CoinDetails extends BasePage<ICoinDetailsProps> {
   }
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const response = await fetch(
     "https://62050462161670001741b30d.mockapi.io/api/v1/data"
   );
