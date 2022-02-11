@@ -13,14 +13,7 @@ interface ICoinDetailsProps extends IBasePageProps {
 class CoinDetails extends BasePage<ICoinDetailsProps> {
   renderPage() {
     const { details } = this.props;
-    return (
-      <div>
-        <div>{details.symbol}</div>
-        <div>{details.description}</div>
-        <div>{details.founded_by}</div>
-        <div>{details.founded_in}</div>
-      </div>
-    );
+    return <div></div>;
   }
 }
 
