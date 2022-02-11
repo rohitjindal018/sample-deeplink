@@ -24,7 +24,7 @@ export default abstract class BasePage<
         "http://play.google.com/store/apps/details?id=com.truecaller&hl=en";
     } else if (platform === MOBILE_PLATFORM.IOS) {
       window.location.href =
-        "http://itunes.apple.com/lb/app/truecaller-caller-id-number/id448142450?mt=8";
+        "itms://itunes.apple.com/app/apple-store/id375380948?mt=8";
     }
   }
 
