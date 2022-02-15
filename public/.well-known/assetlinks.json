@@ -1,17 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.android.wetrade.app.debug",
-    "sha256_cert_fingerprints":
-    ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
-  }
-}, {
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.android.wetrade.app",
-    "sha256_cert_fingerprints":
-    ["31:6C:86:DD:D9:DC:23:F4:79:95:47:CC:21:FD:15:71:05:19:71:C6:0C:26:6C:E3:5A:89:DC:63:7F:AA:38:BD"]
-  }
+  "target" : { "namespace": "android_app", "package_name": "com.android.wetrade.app",
+               "sha256_cert_fingerprints": ["31:6C:86:DD:D9:DC:23:F4:79:95:47:CC:21:FD:15:71:05:19:71:C6:0C:26:6C:E3:5A:89:DC:63:7F:AA:38:BD"] }
 }]
