@@ -6,4 +6,12 @@
     "sha256_cert_fingerprints":
     ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
   }
+}, {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.android.wetrade.app",
+    "sha256_cert_fingerprints":
+    ["6B:18:0C:73:E3:2B:23:4E:E0:F6:E7:A1:33:86:FB:71:79:CF:92:42:D3:35:85:DD:AB:31:E5:63:82:F7:0D:63"]
+  }
 }]
